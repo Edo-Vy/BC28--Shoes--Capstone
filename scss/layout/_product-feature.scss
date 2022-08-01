@@ -35,6 +35,8 @@
         }
         h4 {
           @include text($text-2xl, $text-thin, $text-c1-dark);
+          white-space: nowrap;
+          text-overflow: ellipsis;
         }
         p {
           @include text($text-xl, $text-thin, $text-c4-dark);
@@ -75,9 +77,9 @@
         }
       }
       .bottom-bg-yellow {
-        // background-color: $bg-c1-secondary;
+        background-color: $bg-c1-secondary;
         &:hover {
-          // background-color: $bg-c4-secondary;
+          background-color: $bg-c4-secondary;
         }
       }
       .bottom-bg-grey {

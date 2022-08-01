@@ -7,7 +7,7 @@
 
 html,
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   position: relative;
 }
 
@@ -183,6 +183,8 @@ a {
   font-size: 24px;
   font-weight: 200;
   color: #000000;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .productFeature .productFeature-item .productFeature-item-top p {
@@ -226,6 +228,14 @@ a {
 .productFeature .productFeature-item .productFeature-item-bottom .productFeature-price:hover {
   background-color: #dedddc;
   color: #000000;
+}
+
+.productFeature .productFeature-item .bottom-bg-yellow {
+  background-color: #e1b067;
+}
+
+.productFeature .productFeature-item .bottom-bg-yellow:hover {
+  background-color: #f8b653;
 }
 
 .productFeature .productFeature-item .bottom-bg-grey {
