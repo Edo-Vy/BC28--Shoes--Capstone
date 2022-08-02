@@ -1,17 +1,19 @@
-// Helpers
+//----------- helper
 @import './helper/mixin';
 @import './helper/variables';
-//Venders
-//Base
+
+//-------------base
 @import './base/reset';
-//components
+
+//----------components
 @import './component/backtotop';
-//Layouts
+
+//--------layouts
 @import './layout/header';
 @import './layout/product-feature';
 @import './layout/footer';
-//Pages
+
+//---------pages
 @import './pages/home/index';
 @import './pages/register/register';
 @import './pages/detail/detail';
-//Theme
